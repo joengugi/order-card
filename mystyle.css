@@ -1,0 +1,95 @@
+*{
+    max-width: 1440px;
+    min-width: 375px;
+    font-family: 'Red Hat Display'
+    
+}
+body{
+    background: url(images\pattern-background-desktop.svg);
+ 
+}
+.main{
+   height: 550px;
+   width: 100px;
+   margin: auto;
+   background-color: rgb(226, 216, 216);
+   border-radius: 4%;
+   min-width: 350px;
+}
+.image{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.first{
+    text-align: center;
+    padding: 6% 15% 3% 15%;
+}
+.icon{
+    /* display: flex;
+    flex-direction: row;
+    background-color: rgb(226,216,216);
+    border-radius: 8px; */
+    margin-top: 5%;
+    margin-left: 9%;
+    /* margin-right: 9%;
+    margin-bottom: 9%; */
+}
+
+.image_1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 60px 60px 60px;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+    background-color: hsl(0, 12%, 87%);
+}
+
+a{
+    color: blue;
+    font-weight: 600;
+    font-family: 'Red Hat Display';
+    text-decoration: none;
+}
+.payment p{
+    margin-top: 24px;
+    white-space: nowrap;
+}
+
+.payment{
+    margin: 4%;
+    margin-left: 8%;
+    margin-top: 2px;
+
+}
+
+.change{
+    margin: 12% 0px 0px 10%;
+    width: 100%;
+}
+
+button{
+    width: 78%;
+    margin-left: 10%;
+    height: 4px;
+    font-family:'Inter', sans-serif;
+}
+.button_1{
+    border: none;
+    font-weight: bold;
+    background-color: hsl(245, 78%, 67%);
+    border-radius: 8px;
+    margin-bottom: 2%;
+    box-shadow: 6px 12px 36px;
+}
+
+.button_2{
+border: none;
+background: none;
+font-weight: 800;
+}
